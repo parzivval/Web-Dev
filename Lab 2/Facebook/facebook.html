@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Login Page</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+    body{
+      background-color: #efeded;
+      font-family: "Nunito Sans";
+    }
+    .login-form{
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1), 0 8px 16px rgba(7, 7, 7, 0.1);
+      background-color: #ffffff;
+      padding: 25px;
+    }
+    h4{
+      padding-left:30px;
+      padding-right: 20px;
+    }
+    .btn-custom{
+      background-color: #1355a8;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      line-height: 28px;
+      color: #fff;
+      font-weight:700;
+      height: 48px;
+    }
+    .btn-custom{
+      color: #fff;
+    }
+    input{
+      height: 52px;
+      font-size: 18px;
+      color: #f2f2f2;
+    }
+    .form-control:focus{
+      box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+    }
+    a{
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    @media(max-width: 768px){
+      .col-md-7,p{
+        display: none;
+      }
+      input{
+        font-size: 16px;
+      }
+      .login-form{
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row align-items-center justify-content-center vh-100">
+    <div class="col-md-7">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="w-50">
+      <h3>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h3>
+    </div>
+    <div class="col-md-5">
+      <form class="login-form" action="#">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Электронный адрес или номер телефона"
+                 required>
+        </div>
+        <div>
+          <input type="password" class="form-control" placeholder="Пароль"
+                 required>
+        </div>
+        <button type="button" class="btn btn-custom btn-lg btn-block mt-3">Вход</button>
+        <div class="text-center pt-3 pb-3">
+          <a href="#" class="">Забыли пароль?</a>
+          <hr>
+          <button type="button" class="btn btn-success btn-lg">Создать новый аккаунт</button>
+        </div>
+      </form>
+      <p class="pt-3 text-center"><b>Создать страницу</b> знаменитости, музыкальной группы или компании.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

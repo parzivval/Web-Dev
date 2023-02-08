@@ -1,0 +1,98 @@
+
+body{
+	padding: 0;
+	margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.center1{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+h1{
+	text-align: center;
+	padding: 10px;
+	font-family: 'Dancing Script';
+	font-size: 110px;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	padding: 20px;
+}
+.btn {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+h4{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #AAB7B8;
+	line-height: 2;
+	margin-top: 5px;
+}
+h4:before,h4:after{
+	height: 1.5px;
+    display: inline-block;
+    width: 100px;
+    background: #E5E7E9;
+    border-right: 1px white;
+    content: '';
+    margin-left: 10px;
+    padding: 1px;
+    margin-right: 10px;
+}
+.form-control{
+	background: #F4F6F7;
+	font-size: 18px;
+	height: 50px;
+}
+p{
+	text-align: center;
+}
+
+p a{
+	text-align: center;
+	color: #2980B9;
+	font-weight: 500;
+	text-decoration: none;
+} 
+p a:hover{
+	color: #2E86C1;
+	text-decoration: none;
+}
+
+.box{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.box p{
+	text-align: center;
+	padding: 50px;
+	font-size: 20px;
+}
+h1{
+	font-size: 90px;
+}
+h1{
+	font-size: 80px;
+}
+.box p {
+    font-size: 16px;
+}
