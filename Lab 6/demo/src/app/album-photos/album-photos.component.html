@@ -1,0 +1,10 @@
+<button><a href="/albums/{{id}}">Return back</a></button>
+<h1> Photos of Album#{{id}}</h1>
+<div *ngIf="loaded">
+  <ul *ngFor="let photo of photos">
+    <li>ID of photo:{{photo.id}}, {{photo.title}}</li>
+    <img [src]="photo.thumbnailUrl">
+  </ul>
+</div>
+<h2 *ngIf="loaded==false">Photos are loading...</h2>
+
