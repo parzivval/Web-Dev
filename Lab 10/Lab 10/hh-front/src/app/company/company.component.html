@@ -1,0 +1,9 @@
+<h2 class="company-list-title">Companies:</h2>
+<ul class="company-list">
+  <li *ngFor="let c of companies" class="company-list-item">
+    <div class="company">
+      <a routerLink="/companies/{{c.id}}/" class="company-link">{{c.name}}:</a>
+      <h4 class="company-details">city: {{c.city}}, address: {{c.address}}, description: {{c.description}}</h4>
+    </div>
+  </li>
+</ul>

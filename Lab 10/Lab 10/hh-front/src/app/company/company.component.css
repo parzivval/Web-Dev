@@ -1,0 +1,27 @@
+.company-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.company-list-item {
+  margin-bottom: 20px;
+}
+
+.company {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.company-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.company-details {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+}
